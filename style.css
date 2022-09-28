@@ -1,0 +1,162 @@
+* {
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+hr {
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+/* NAV */
+.container {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+nav {
+    width: 100%;
+    background-color: #eec14c;
+    position: fixed;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    color: black;
+
+}
+
+.align-right {
+    text-align: right;
+    right: 0;
+    float: right;
+}
+
+/* TUTUP NAV */
+
+/* HOME */
+#home {
+    background-color: #c9c9c9;
+}
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bio-p {
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    background-color: #eec14c;
+    border-radius: 20px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    width: 100px;
+    box-shadow: 0px 9px 15px 0px #0000001A;
+}
+/* TUTUP HOME */
+
+/* Skill */
+
+.progress-bar {
+    background-color: #d83250;
+    height: 16px;
+    border-radius: 20px;
+}
+.kesamping {
+    margin-left: 100%;
+    font-weight: bold;
+}
+.margin-top-25 {
+    margin-top: 25px;
+}
+
+/* Akhir Skill */
+
+
+/* CARD */
+
+#contact {
+    background-color: #c9c9c9;
+}
+
+.card {
+	box-shadow: 2px 2px 2px rgba(0, 0, 0,.2);
+	border-radius: 20px;
+	display: inline-block;
+	width: 20%;
+	margin-right: 25px;
+	margin-left: 25px;
+	padding: 50px;
+    background-color: white;
+    
+}
+
+.card-img {
+	width: 30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+.google-maps {
+    width: 100%;
+    height: 500px;
+    border: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+/* Akhir CARD */
+
+/* Footer */
+
+footer {
+    background-color: #eec14c;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Akhir Footer */
